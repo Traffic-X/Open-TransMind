@@ -5,7 +5,7 @@
 ---
 ## Track1
 
-We provide codebase and baseline of Multi-task joint training of classification, detection and segmentation. more details see [track1](https://github.com/Traffic-X/Open-TransMind)
+We provide codebase and baseline of Multi-task joint training of classification, detection and segmentation. more details see [track1](https://github.com/Traffic-X/Open-TransMind/tree/main/track1)
 
 ---
 ## Track2
