@@ -1,0 +1,1978 @@
+rank is 3, world size is 8
+I0403 19:41:05.106585 67464 gen_comm_id_helper.cc:205] Server listening on: 127.0.0.1:60004 successful.
+I0403 19:41:07.707263 67464 nccl_context.cc:83] init nccl context nranks: 8 local rank: 3 gpu id: 3 ring id: 0
+W0403 19:41:12.702983 67464 gpu_context.cc:278] Please NOTE: device: 3, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.0
+W0403 19:41:12.707001 67464 gpu_context.cc:306] device: 3, cuDNN Version: 8.0.
+Traceback (most recent call last):
+  File "tools/ufo_train.py", line 231, in <module>
+    main(args)
+  File "tools/ufo_train.py", line 178, in main
+    cfg = LazyConfig.load(args.config_file)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 211, in load
+    exec(compile(content, filename, "exec"), module_namespace)
+  File "configs/vitbase_retrieval.py", line 44, in <module>
+    from modeling.backbones.vit_tt import CLIP
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 154, in new_import
+    return old_import(name, globals, locals, fromlist=fromlist, level=level)
+ModuleNotFoundError: No module named 'modeling.backbones.vit_tt'
+rank is 3, world size is 8
+I0403 19:43:19.776878 68156 gen_comm_id_helper.cc:205] Server listening on: 127.0.0.1:60004 successful.
+I0403 19:43:22.725275 68156 nccl_context.cc:83] init nccl context nranks: 8 local rank: 3 gpu id: 3 ring id: 0
+W0403 19:43:27.520429 68156 gpu_context.cc:278] Please NOTE: device: 3, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.0
+W0403 19:43:27.523661 68156 gpu_context.cc:306] device: 3, cuDNN Version: 8.0.
+Traceback (most recent call last):
+  File "tools/ufo_train.py", line 231, in <module>
+    main(args)
+  File "tools/ufo_train.py", line 178, in main
+    cfg = LazyConfig.load(args.config_file)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 211, in load
+    exec(compile(content, filename, "exec"), module_namespace)
+  File "configs/vitbase_retrieval.py", line 44, in <module>
+    from modeling.backbones.vit_retrieval import CLIP
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 154, in new_import
+    return old_import(name, globals, locals, fromlist=fromlist, level=level)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/modeling/backbones/vit_retrieval.py", line 13, in <module>
+    from .utils import init
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 154, in new_import
+    return old_import(name, globals, locals, fromlist=fromlist, level=level)
+ModuleNotFoundError: No module named 'modeling.backbones.utils'
+rank is 3, world size is 8
+I0403 19:45:39.603454 68801 gen_comm_id_helper.cc:205] Server listening on: 127.0.0.1:60004 successful.
+I0403 19:45:42.283267 68801 nccl_context.cc:83] init nccl context nranks: 8 local rank: 3 gpu id: 3 ring id: 0
+W0403 19:45:47.510365 68801 gpu_context.cc:278] Please NOTE: device: 3, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.0
+W0403 19:45:47.513882 68801 gpu_context.cc:306] device: 3, cuDNN Version: 8.0.
+Traceback (most recent call last):
+  File "tools/ufo_train.py", line 231, in <module>
+    main(args)
+  File "tools/ufo_train.py", line 178, in main
+    cfg = LazyConfig.load(args.config_file)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 211, in load
+    exec(compile(content, filename, "exec"), module_namespace)
+  File "configs/vitbase_retrieval.py", line 44, in <module>
+    from modeling.backbones.vit_retrieval import CLIP
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 154, in new_import
+    return old_import(name, globals, locals, fromlist=fromlist, level=level)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/modeling/backbones/vit_retrieval.py", line 16, in <module>
+    from .vision_transformer_v2 import Transformer, VisionTransformer
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 154, in new_import
+    return old_import(name, globals, locals, fromlist=fromlist, level=level)
+ModuleNotFoundError: No module named 'modeling.backbones.vision_transformer_v2'
+rank is 3, world size is 8
+I0403 19:46:42.710649 69312 gen_comm_id_helper.cc:205] Server listening on: 127.0.0.1:60004 successful.
+I0403 19:46:45.640089 69312 nccl_context.cc:83] init nccl context nranks: 8 local rank: 3 gpu id: 3 ring id: 0
+W0403 19:46:50.932770 69312 gpu_context.cc:278] Please NOTE: device: 3, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.0
+W0403 19:46:50.936028 69312 gpu_context.cc:306] device: 3, cuDNN Version: 8.0.
+Traceback (most recent call last):
+  File "tools/ufo_train.py", line 231, in <module>
+    main(args)
+  File "tools/ufo_train.py", line 178, in main
+    cfg = LazyConfig.load(args.config_file)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 211, in load
+    exec(compile(content, filename, "exec"), module_namespace)
+  File "configs/vitbase_retrieval.py", line 45, in <module>
+    from modeling.heads.retrieval_head import RetrievalHead
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/config/lazy.py", line 154, in new_import
+    return old_import(name, globals, locals, fromlist=fromlist, level=level)
+ModuleNotFoundError: No module named 'modeling.heads.retrieval_head'
+rank is 3, world size is 8
+I0403 19:47:49.412436 69809 gen_comm_id_helper.cc:205] Server listening on: 127.0.0.1:60004 successful.
+I0403 19:47:52.234318 69809 nccl_context.cc:83] init nccl context nranks: 8 local rank: 3 gpu id: 3 ring id: 0
+W0403 19:47:57.325850 69809 gpu_context.cc:278] Please NOTE: device: 3, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.0
+W0403 19:47:57.330864 69809 gpu_context.cc:306] device: 3, cuDNN Version: 8.0.
+[32m[04/03 19:48:03 ufo]: [0mRank of current process: 0. World size: 1
+[32m[04/03 19:48:11 ufo]: [0mEnvironment info:
+----------------------  -----------------------------------------------------------------------------------------------------------------------------
+sys.platform            linux
+Python                  3.7.10 (default, Feb 26 2021, 18:47:35) [GCC 7.3.0]
+numpy                   1.19.3
+detectron2              imported a wrong installation
+detectron2._C           not built correctly: {e}
+Compiler ($CXX)         c++ (GCC) 8.2.0
+CUDA compiler           Build cuda_11.0_bu.TC445_37.28845127_0
+DETECTRON2_ENV_MODULE   <not set>
+PyTorch                 1.7.1+cu110 @/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/torch
+PyTorch debug build     False
+GPU available           Yes
+GPU 0,1,2,3,4,5,6,7     NVIDIA A100-SXM4-40GB (arch={cap})
+Driver version          470.82.01
+CUDA_HOME               /usr/local/cuda
+Pillow                  8.1.2
+torchvision             0.8.2+cu110 @/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/torchvision
+torchvision arch flags  3.5, 5.0, 6.0, 7.0, 7.5, 8.0
+fvcore                  0.1.5.post20220119
+iopath                  0.1.9
+cv2                     3.4.15
+----------------------  -----------------------------------------------------------------------------------------------------------------------------
+PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.6.0 (Git Hash 5ef631a030a6f73131c77892041042805a06064f)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.0
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80
+  - CuDNN 8.0.5
+  - Magma 2.5.2
+  - Build settings: BLAS=MKL, BUILD_TYPE=Release, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DUSE_VULKAN_WRAPPER -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, USE_CUDA=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, 
+
+[32m[04/03 19:48:11 ufo]: [0mCommand line arguments: Namespace(config_file='configs/vitbase_retrieval.py', dist_url='tcp://127.0.0.1:49152', eval_only=False, machine_rank=0, num_gpus=1, num_machines=1, opts=[], resume=False)
+[32m[04/03 19:48:11 ufo]: [0mContents of args.config_file=configs/vitbase_retrieval.py:
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15m.[39m[38;5;15mcommon[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mtrain[39m
+[38;5;197mimport[39m[38;5;15m [39m[38;5;15mos[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15momegaconf[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mOmegaConf[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mcollections[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mOrderedDict[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdetectron2[39m[38;5;15m.[39m[38;5;15mconfig[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mLazyCall[39m[38;5;15m [39m[38;5;81mas[39m[38;5;15m [39m[38;5;15mL[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mMultiTaskDataLoader[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mmeta_arch[39m[38;5;15m.[39m[38;5;15mmultitask_v2[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mMultiTaskBatchFuse[39m
+
+[38;5;242m# retrieval[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mtransforms[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mbuild_transforms_lazy[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mbuild_retrieval[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m  [39m[38;5;15mbuild_retrieval_dataset[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15m\[39m
+[38;5;15m    [39m[38;5;15mbuild_retrieval_trainloader[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15mbuild_retrieval_test_dataset[39m
+
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15msolver[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mbuild_lr_optimizer_lazy[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15mbuild_lr_scheduler_lazy[39m
+[38;5;15m    [39m
+
+[38;5;15mdataloader[39m[38;5;197m=[39m[38;5;15mOmegaConf[39m[38;5;197m.[39m[38;5;15mcreate[39m[38;5;15m([39m[38;5;15m)[39m
+[38;5;15m_root[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m"[39m[38;5;186mdatasets[39m[38;5;186m"[39m
+
+
+[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mMultiTaskDataLoader[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15mcfg[39m[38;5;197m=[39m[38;5;15mdict[39m[38;5;15m([39m[38;5;15msample_mode[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mbatch[39m[38;5;186m'[39m[38;5;15m,[39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtask_loaders[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mOrderedDict[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m        [39m[38;5;15mretrieval[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_retrieval_trainloader[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m            [39m[38;5;15mdata_set[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_retrieval_dataset[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m                    [39m[38;5;15mdataset_name[39m[38;5;197m=[39m[38;5;186m"[39m[38;5;186mRetrievalDataset[39m[38;5;186m"[39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15mdataroot[39m[38;5;197m=[39m[38;5;15m_root[39m[38;5;15m [39m[38;5;197m+[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186m/train[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15mtransforms[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_transforms_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m                        [39m[38;5;15mis_train[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15msize_train[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m224[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m224[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15mmean[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.485[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.456[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.406[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15mstd[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.229[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.224[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.225[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15m)[39m[38;5;15m,[39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m            [39m[38;5;15mtotal_batch_size[39m[38;5;197m=[39m[38;5;141m16[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mworker_num[39m[38;5;197m=[39m[38;5;141m4[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mdrop_last[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mshuffle[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m            [39m[38;5;15mis_train[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mbackbones[39m[38;5;15m.[39m[38;5;15mvit_retrieval[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mCLIP[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mheads[39m[38;5;15m.[39m[38;5;15mretrieval_head[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mRetrievalHead[39m
+
+
+[38;5;15mbackbone[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mCLIP[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15membed_dim[39m[38;5;197m=[39m[38;5;141m512[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mimage_resolution[39m[38;5;197m=[39m[38;5;141m224[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_layers[39m[38;5;197m=[39m[38;5;141m12[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_width[39m[38;5;197m=[39m[38;5;141m768[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_patch_size[39m[38;5;197m=[39m[38;5;141m32[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mcontext_length[39m[38;5;197m=[39m[38;5;141m77[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvocab_size[39m[38;5;197m=[39m[38;5;141m49408[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_width[39m[38;5;197m=[39m[38;5;141m512[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_heads[39m[38;5;197m=[39m[38;5;141m8[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_layers[39m[38;5;197m=[39m[38;5;141m12[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mqkv_bias[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpre_norm[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mproj[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpatch_bias[39m[38;5;197m=[39m[38;5;81mFalse[39m
+[38;5;15m)[39m
+
+[38;5;15mmodel[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mMultiTaskBatchFuse[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15mbackbone[39m[38;5;197m=[39m[38;5;15mbackbone[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mheads[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mOrderedDict[39m[38;5;15m)[39m[38;5;15m([39m
+
+[38;5;15m        [39m[38;5;15mretrieval[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mRetrievalHead[39m[38;5;15m)[39m[38;5;15m([39m[38;5;15m)[39m[38;5;15m,[39m
+
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpixel_mean[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.485[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.456[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.406[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpixel_std[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.229[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.224[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.225[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+
+[38;5;15moptimizer[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_lr_optimizer_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15moptimizer_type[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mAdamW[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mbase_lr[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mweight_decay[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mgrad_clip_enabled[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mgrad_clip_norm[39m[38;5;197m=[39m[38;5;141m0.1[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mapply_decay_param_fun[39m[38;5;197m=[39m[38;5;81mNone[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mlr_multiplier[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_lr_scheduler_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m        [39m[38;5;15mmax_iters[39m[38;5;197m=[39m[38;5;141m900000[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15mwarmup_iters[39m[38;5;197m=[39m[38;5;141m0[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msolver_steps[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m720000[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msolver_gamma[39m[38;5;197m=[39m[38;5;141m0.1[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15mbase_lr[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msched[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mPiecewiseDecay[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mamp[39m[38;5;197m.[39m[38;5;15menabled[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;81mFalse[39m
+
+[38;5;242m# data settings[39m
+[38;5;15msample_num[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m136117[39m[38;5;15m     [39m[38;5;242m#训练集样本量[39m
+[38;5;15mepochs[39m[38;5;197m=[39m[38;5;141m90[39m
+[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mtask_loaders[39m[38;5;197m.[39m[38;5;15mretrieval[39m[38;5;197m.[39m[38;5;15mtotal_batch_size[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m128[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m8[39m[38;5;15m [39m
+
+[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15msample_num[39m[38;5;15m [39m[38;5;197m/[39m[38;5;197m/[39m[38;5;15m [39m[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mtask_loaders[39m[38;5;197m.[39m[38;5;15mretrieval[39m[38;5;197m.[39m[38;5;15mtotal_batch_size[39m
+
+[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;15mepochs[39m
+
+[38;5;242m# optimizer[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mmax_iters[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mbase_lr[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15mlearning_rate[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m1e-4[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15msolver_steps[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15m[[39m[38;5;15mint[39m[38;5;15m([39m[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m0.8[39m[38;5;15m)[39m[38;5;15m][39m
+
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mmax_iter[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mmax_iters[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mcheckpointer[39m[38;5;197m.[39m[38;5;15mperiod[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mint[39m[38;5;15m([39m[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m10[39m[38;5;15m)[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mcheckpointer[39m[38;5;197m.[39m[38;5;15mmax_to_keep[39m[38;5;197m=[39m[38;5;141m10[39m[38;5;15m    [39m[38;5;242m# 只保存最新的10个模型[39m
+
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15moutput_dir[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186moutputs/vitbase_retrieval[39m[38;5;186m'[39m
+
+[38;5;242m# resume settings (remember last_checkpoint and --resume)[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mlog_period[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m100[39m
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15minit_checkpoint[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186mpretrained/vitbase_clip.pdparams[39m[38;5;186m'[39m[38;5;15m [39m[38;5;242m# 导入CLIP预训练模型[39m
+
+[32m[04/03 19:48:11 ufo]: [0mFull config saved to outputs/vitbase_retrieval/config.yaml
+data_set: <data.datasets.retrieval_dataset.RetrievalDataset object at 0x7f7ce2455b50>
+RetrievalDataset has 126117 samples
+[32m[04/03 19:48:12 ufo]: [0m{'train': {'output_dir': 'outputs/vitbase_retrieval', 'sacred': {'enabled': True}, 'init_checkpoint': 'pretrained/vitbase_clip.pdparams', 'amp': {'enabled': False}, 'cudnn_benchmark': True, 'ddp': {'broadcast_buffers': False, 'find_unused_parameters': True, 'fp16_compression': False}, 'max_iter': 11880, 'checkpointer': {'period': 1320, 'max_to_keep': 10}, 'eval_period': 5000, 'log_period': 100, 'device': 'gpu'}, 'dataloader': {'train': {'cfg': {'sample_mode': 'batch'}, 'task_loaders': {'retrieval': {'data_set': {'dataset_name': 'RetrievalDataset', 'dataroot': 'datasets/train', 'transforms': {'is_train': True, 'size_train': [224, 224], 'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.120000000000005, 57.375], '_target_': <function build_transforms_lazy at 0x7f7d14e3bf80>}, '_target_': <function build_retrieval_dataset at 0x7f7d115ca9e0>}, 'total_batch_size': 1024, 'worker_num': 4, 'drop_last': True, 'shuffle': True, 'is_train': True, '_target_': <function build_retrieval_trainloader at 0x7f7d115d4710>}, '_target_': <class 'collections.OrderedDict'>}, '_target_': <class 'data.build.MultiTaskDataLoader'>}}, 'backbone': {'embed_dim': 512, 'image_resolution': 224, 'vision_layers': 12, 'vision_width': 768, 'vision_patch_size': 32, 'context_length': 77, 'vocab_size': 49408, 'transformer_width': 512, 'transformer_heads': 8, 'transformer_layers': 12, 'qkv_bias': True, 'pre_norm': True, 'proj': True, 'patch_bias': False, '_target_': <class 'modeling.backbones.vit_retrieval.CLIP'>}, 'model': {'backbone': {'embed_dim': 512, 'image_resolution': 224, 'vision_layers': 12, 'vision_width': 768, 'vision_patch_size': 32, 'context_length': 77, 'vocab_size': 49408, 'transformer_width': 512, 'transformer_heads': 8, 'transformer_layers': 12, 'qkv_bias': True, 'pre_norm': True, 'proj': True, 'patch_bias': False, '_target_': <class 'modeling.backbones.vit_retrieval.CLIP'>}, 'heads': {'retrieval': {'_target_': <class 'modeling.heads.retrieval_head.RetrievalHead'>}, '_target_': <class 'collections.OrderedDict'>}, 'pixel_mean': [123.675, 116.28, 103.53], 'pixel_std': [58.395, 57.120000000000005, 57.375], '_target_': <class 'modeling.meta_arch.multitask_v2.MultiTaskBatchFuse'>}, 'optimizer': {'optimizer_type': 'AdamW', 'base_lr': 0.0001, 'weight_decay': 0.0001, 'grad_clip_enabled': True, 'grad_clip_norm': 0.1, 'apply_decay_param_fun': None, 'lr_multiplier': {'max_iters': 11880, 'warmup_iters': 0, 'solver_steps': [9504], 'solver_gamma': 0.1, 'base_lr': 0.0001, 'sched': 'PiecewiseDecay', '_target_': <function build_lr_scheduler_lazy at 0x7f7dc3691680>, 'learning_rate': 0.0001}, '_target_': <function build_lr_optimizer_lazy at 0x7f7dc3691200>}}
+[32m[04/03 19:48:17 ufo]: [0mModel:
+MultiTaskBatchFuse(
+  (backbone): CLIP(
+    (visual): VisionTransformer(
+      (patch_embed): PatchEmbed(
+        (proj): Conv2D(3, 768, kernel_size=[32, 32], stride=[32, 32], data_format=NCHW)
+      )
+      (pos_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+      (norm_pre): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+      (blocks): LayerList(
+        (0): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (1): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (2): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (3): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (4): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (5): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (6): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (7): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (8): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (9): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (10): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (11): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (norm_post): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+    )
+    (transformer): Transformer(
+      (blocks): LayerList(
+        (0): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (1): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (2): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (3): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (4): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (5): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (6): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (7): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (8): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (9): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (10): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (11): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+    )
+    (token_embedding): Embedding(49408, 512, sparse=False)
+    (ln_final): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+  )
+  (heads): LayerDict(
+    (retrieval): RetrievalHead(
+      (criterion): CrossEntropyLoss()
+    )
+  )
+)
+[32m[04/03 19:48:17 ufo]: [0mOptim:
+Weight Decay, params: 
+backbone.logit_scale has [1], but backbone.logit_scale has []
+backbone.logit_scale has [], but backbone.logit_scale has [1]
+missing keys: []
+unexpected keys: []
+Exception during training:
+Traceback (most recent call last):
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/engine/train_loop.py", line 154, in train
+    self.run_step()
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/engine/train_loop.py", line 305, in run_step
+    task_loss_dict = self.model({task_name: val}) #self.teacher)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/parallel.py", line 752, in forward
+    outputs = self._layers(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/modeling/meta_arch/multitask_v2.py", line 99, in forward
+    features = self.backbone(self.preprocess_image(batched_inputs))
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/modeling/backbones/vit_retrieval.py", line 149, in forward
+    text = inputs['text']
+KeyError: 'text'
+Traceback (most recent call last):
+  File "tools/ufo_train.py", line 231, in <module>
+    main(args)
+  File "tools/ufo_train.py", line 225, in main
+    do_train(args, cfg)
+  File "tools/ufo_train.py", line 162, in do_train
+    trainer.train(start_iter, cfg.train.max_iter)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/engine/train_loop.py", line 154, in train
+    self.run_step()
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/detectron2/engine/train_loop.py", line 305, in run_step
+    task_loss_dict = self.model({task_name: val}) #self.teacher)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/parallel.py", line 752, in forward
+    outputs = self._layers(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/modeling/meta_arch/multitask_v2.py", line 99, in forward
+    features = self.backbone(self.preprocess_image(batched_inputs))
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/paddlejob/workspace/pro/track2/baidu/adu-lab/v2x-perception-foundation-model/track2/modeling/backbones/vit_retrieval.py", line 149, in forward
+    text = inputs['text']
+KeyError: 'text'
+rank is 3, world size is 8
+I0403 20:05:53.829329 72487 gen_comm_id_helper.cc:205] Server listening on: 127.0.0.1:60004 successful.
+I0403 20:05:56.813277 72487 nccl_context.cc:83] init nccl context nranks: 8 local rank: 3 gpu id: 3 ring id: 0
+W0403 20:06:02.124349 72487 gpu_context.cc:278] Please NOTE: device: 3, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.0
+W0403 20:06:02.127900 72487 gpu_context.cc:306] device: 3, cuDNN Version: 8.0.
+[32m[04/03 20:06:08 ufo]: [0mRank of current process: 0. World size: 1
+[32m[04/03 20:06:17 ufo]: [0mEnvironment info:
+----------------------  -----------------------------------------------------------------------------------------------------------------------------
+sys.platform            linux
+Python                  3.7.10 (default, Feb 26 2021, 18:47:35) [GCC 7.3.0]
+numpy                   1.19.3
+detectron2              imported a wrong installation
+detectron2._C           not built correctly: {e}
+Compiler ($CXX)         c++ (GCC) 8.2.0
+CUDA compiler           Build cuda_11.0_bu.TC445_37.28845127_0
+DETECTRON2_ENV_MODULE   <not set>
+PyTorch                 1.7.1+cu110 @/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/torch
+PyTorch debug build     False
+GPU available           Yes
+GPU 0,1,2,3,4,5,6,7     NVIDIA A100-SXM4-40GB (arch={cap})
+Driver version          470.82.01
+CUDA_HOME               /usr/local/cuda
+Pillow                  8.1.2
+torchvision             0.8.2+cu110 @/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/torchvision
+torchvision arch flags  3.5, 5.0, 6.0, 7.0, 7.5, 8.0
+fvcore                  0.1.5.post20220119
+iopath                  0.1.9
+cv2                     3.4.15
+----------------------  -----------------------------------------------------------------------------------------------------------------------------
+PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.6.0 (Git Hash 5ef631a030a6f73131c77892041042805a06064f)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.0
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80
+  - CuDNN 8.0.5
+  - Magma 2.5.2
+  - Build settings: BLAS=MKL, BUILD_TYPE=Release, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DUSE_VULKAN_WRAPPER -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, USE_CUDA=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, 
+
+[32m[04/03 20:06:17 ufo]: [0mCommand line arguments: Namespace(config_file='configs/vitbase_retrieval.py', dist_url='tcp://127.0.0.1:49152', eval_only=False, machine_rank=0, num_gpus=1, num_machines=1, opts=[], resume=False)
+[32m[04/03 20:06:17 ufo]: [0mContents of args.config_file=configs/vitbase_retrieval.py:
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15m.[39m[38;5;15mcommon[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mtrain[39m
+[38;5;197mimport[39m[38;5;15m [39m[38;5;15mos[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15momegaconf[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mOmegaConf[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mcollections[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mOrderedDict[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdetectron2[39m[38;5;15m.[39m[38;5;15mconfig[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mLazyCall[39m[38;5;15m [39m[38;5;81mas[39m[38;5;15m [39m[38;5;15mL[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mMultiTaskDataLoader[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mmeta_arch[39m[38;5;15m.[39m[38;5;15mmultitask_v2[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mMultiTaskBatchFuse[39m
+
+[38;5;242m# retrieval[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mtransforms[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mbuild_transforms_lazy[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mbuild_retrieval[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m  [39m[38;5;15mbuild_retrieval_dataset[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15m\[39m
+[38;5;15m    [39m[38;5;15mbuild_retrieval_trainloader[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15mbuild_retrieval_test_dataset[39m
+
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15msolver[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mbuild_lr_optimizer_lazy[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15mbuild_lr_scheduler_lazy[39m
+[38;5;15m    [39m
+
+[38;5;15mdataloader[39m[38;5;197m=[39m[38;5;15mOmegaConf[39m[38;5;197m.[39m[38;5;15mcreate[39m[38;5;15m([39m[38;5;15m)[39m
+[38;5;15m_root[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m"[39m[38;5;186mdatasets[39m[38;5;186m"[39m
+
+
+[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mMultiTaskDataLoader[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15mcfg[39m[38;5;197m=[39m[38;5;15mdict[39m[38;5;15m([39m[38;5;15msample_mode[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mbatch[39m[38;5;186m'[39m[38;5;15m,[39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtask_loaders[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mOrderedDict[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m        [39m[38;5;15mretrieval[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_retrieval_trainloader[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m            [39m[38;5;15mdata_set[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_retrieval_dataset[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m                    [39m[38;5;15mdataset_name[39m[38;5;197m=[39m[38;5;186m"[39m[38;5;186mRetrievalDataset[39m[38;5;186m"[39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15mdataroot[39m[38;5;197m=[39m[38;5;15m_root[39m[38;5;15m [39m[38;5;197m+[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186m/train[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15mtransforms[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_transforms_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m                        [39m[38;5;15mis_train[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15msize_train[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m224[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m224[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15mmean[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.485[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.456[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.406[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15mstd[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.229[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.224[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.225[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15m)[39m[38;5;15m,[39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m            [39m[38;5;15mtotal_batch_size[39m[38;5;197m=[39m[38;5;141m16[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mworker_num[39m[38;5;197m=[39m[38;5;141m4[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mdrop_last[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mshuffle[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m            [39m[38;5;15mis_train[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mbackbones[39m[38;5;15m.[39m[38;5;15mvit_retrieval[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mCLIP[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mheads[39m[38;5;15m.[39m[38;5;15mretrieval_head[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mRetrievalHead[39m
+
+
+[38;5;15mbackbone[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mCLIP[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15membed_dim[39m[38;5;197m=[39m[38;5;141m512[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mimage_resolution[39m[38;5;197m=[39m[38;5;141m224[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_layers[39m[38;5;197m=[39m[38;5;141m12[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_width[39m[38;5;197m=[39m[38;5;141m768[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_patch_size[39m[38;5;197m=[39m[38;5;141m32[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mcontext_length[39m[38;5;197m=[39m[38;5;141m77[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvocab_size[39m[38;5;197m=[39m[38;5;141m49408[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_width[39m[38;5;197m=[39m[38;5;141m512[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_heads[39m[38;5;197m=[39m[38;5;141m8[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_layers[39m[38;5;197m=[39m[38;5;141m12[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mqkv_bias[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpre_norm[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mproj[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpatch_bias[39m[38;5;197m=[39m[38;5;81mFalse[39m
+[38;5;15m)[39m
+
+[38;5;15mmodel[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mMultiTaskBatchFuse[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15mbackbone[39m[38;5;197m=[39m[38;5;15mbackbone[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mheads[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mOrderedDict[39m[38;5;15m)[39m[38;5;15m([39m
+
+[38;5;15m        [39m[38;5;15mretrieval[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mRetrievalHead[39m[38;5;15m)[39m[38;5;15m([39m[38;5;15m)[39m[38;5;15m,[39m
+
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpixel_mean[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.485[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.456[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.406[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpixel_std[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.229[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.224[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.225[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+
+[38;5;15moptimizer[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_lr_optimizer_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15moptimizer_type[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mAdamW[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mbase_lr[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mweight_decay[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mgrad_clip_enabled[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mgrad_clip_norm[39m[38;5;197m=[39m[38;5;141m0.1[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mapply_decay_param_fun[39m[38;5;197m=[39m[38;5;81mNone[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mlr_multiplier[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_lr_scheduler_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m        [39m[38;5;15mmax_iters[39m[38;5;197m=[39m[38;5;141m900000[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15mwarmup_iters[39m[38;5;197m=[39m[38;5;141m0[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msolver_steps[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m720000[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msolver_gamma[39m[38;5;197m=[39m[38;5;141m0.1[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15mbase_lr[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msched[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mPiecewiseDecay[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mamp[39m[38;5;197m.[39m[38;5;15menabled[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;81mFalse[39m
+
+[38;5;242m# data settings[39m
+[38;5;15msample_num[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m136117[39m[38;5;15m     [39m[38;5;242m#训练集样本量[39m
+[38;5;15mepochs[39m[38;5;197m=[39m[38;5;141m20[39m
+[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mtask_loaders[39m[38;5;197m.[39m[38;5;15mretrieval[39m[38;5;197m.[39m[38;5;15mtotal_batch_size[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m128[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m8[39m[38;5;15m [39m
+
+[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15msample_num[39m[38;5;15m [39m[38;5;197m/[39m[38;5;197m/[39m[38;5;15m [39m[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mtask_loaders[39m[38;5;197m.[39m[38;5;15mretrieval[39m[38;5;197m.[39m[38;5;15mtotal_batch_size[39m
+
+[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;15mepochs[39m
+
+[38;5;242m# optimizer[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mmax_iters[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mbase_lr[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15mlearning_rate[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m1e-4[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15msolver_steps[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15m[[39m[38;5;15mint[39m[38;5;15m([39m[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m0.8[39m[38;5;15m)[39m[38;5;15m][39m
+
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mmax_iter[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mmax_iters[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mcheckpointer[39m[38;5;197m.[39m[38;5;15mperiod[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mint[39m[38;5;15m([39m[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m10[39m[38;5;15m)[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mcheckpointer[39m[38;5;197m.[39m[38;5;15mmax_to_keep[39m[38;5;197m=[39m[38;5;141m10[39m[38;5;15m    [39m[38;5;242m# 只保存最新的10个模型[39m
+
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15moutput_dir[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186moutputs/vitbase_retrieval[39m[38;5;186m'[39m
+
+[38;5;242m# resume settings (remember last_checkpoint and --resume)[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mlog_period[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m100[39m
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15minit_checkpoint[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186mpretrained/vitbase_clip.pdparams[39m[38;5;186m'[39m[38;5;15m [39m[38;5;242m# 导入CLIP预训练模型[39m
+
+[32m[04/03 20:06:17 ufo]: [0mFull config saved to outputs/vitbase_retrieval/config.yaml
+data_set: <data.datasets.retrieval_dataset.RetrievalDataset object at 0x7ff5f8edcd50>
+RetrievalDataset has 126117 samples
+[32m[04/03 20:06:18 ufo]: [0m{'train': {'output_dir': 'outputs/vitbase_retrieval', 'sacred': {'enabled': True}, 'init_checkpoint': 'pretrained/vitbase_clip.pdparams', 'amp': {'enabled': False}, 'cudnn_benchmark': True, 'ddp': {'broadcast_buffers': False, 'find_unused_parameters': True, 'fp16_compression': False}, 'max_iter': 2640, 'checkpointer': {'period': 1320, 'max_to_keep': 10}, 'eval_period': 5000, 'log_period': 100, 'device': 'gpu'}, 'dataloader': {'train': {'cfg': {'sample_mode': 'batch'}, 'task_loaders': {'retrieval': {'data_set': {'dataset_name': 'RetrievalDataset', 'dataroot': 'datasets/train', 'transforms': {'is_train': True, 'size_train': [224, 224], 'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.120000000000005, 57.375], '_target_': <function build_transforms_lazy at 0x7ff5fe8c4f80>}, '_target_': <function build_retrieval_dataset at 0x7ff5fe356a70>}, 'total_batch_size': 1024, 'worker_num': 4, 'drop_last': True, 'shuffle': True, 'is_train': True, '_target_': <function build_retrieval_trainloader at 0x7ff5fe3627a0>}, '_target_': <class 'collections.OrderedDict'>}, '_target_': <class 'data.build.MultiTaskDataLoader'>}}, 'backbone': {'embed_dim': 512, 'image_resolution': 224, 'vision_layers': 12, 'vision_width': 768, 'vision_patch_size': 32, 'context_length': 77, 'vocab_size': 49408, 'transformer_width': 512, 'transformer_heads': 8, 'transformer_layers': 12, 'qkv_bias': True, 'pre_norm': True, 'proj': True, 'patch_bias': False, '_target_': <class 'modeling.backbones.vit_retrieval.CLIP'>}, 'model': {'backbone': {'embed_dim': 512, 'image_resolution': 224, 'vision_layers': 12, 'vision_width': 768, 'vision_patch_size': 32, 'context_length': 77, 'vocab_size': 49408, 'transformer_width': 512, 'transformer_heads': 8, 'transformer_layers': 12, 'qkv_bias': True, 'pre_norm': True, 'proj': True, 'patch_bias': False, '_target_': <class 'modeling.backbones.vit_retrieval.CLIP'>}, 'heads': {'retrieval': {'_target_': <class 'modeling.heads.retrieval_head.RetrievalHead'>}, '_target_': <class 'collections.OrderedDict'>}, 'pixel_mean': [123.675, 116.28, 103.53], 'pixel_std': [58.395, 57.120000000000005, 57.375], '_target_': <class 'modeling.meta_arch.multitask_v2.MultiTaskBatchFuse'>}, 'optimizer': {'optimizer_type': 'AdamW', 'base_lr': 0.0001, 'weight_decay': 0.0001, 'grad_clip_enabled': True, 'grad_clip_norm': 0.1, 'apply_decay_param_fun': None, 'lr_multiplier': {'max_iters': 2640, 'warmup_iters': 0, 'solver_steps': [2112], 'solver_gamma': 0.1, 'base_lr': 0.0001, 'sched': 'PiecewiseDecay', '_target_': <function build_lr_scheduler_lazy at 0x7ff6ad100680>, 'learning_rate': 0.0001}, '_target_': <function build_lr_optimizer_lazy at 0x7ff6ad100200>}}
+[32m[04/03 20:06:21 ufo]: [0mModel:
+MultiTaskBatchFuse(
+  (backbone): CLIP(
+    (visual): VisionTransformer(
+      (patch_embed): PatchEmbed(
+        (proj): Conv2D(3, 768, kernel_size=[32, 32], stride=[32, 32], data_format=NCHW)
+      )
+      (pos_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+      (norm_pre): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+      (blocks): LayerList(
+        (0): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (1): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (2): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (3): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (4): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (5): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (6): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (7): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (8): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (9): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (10): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (11): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (norm_post): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+    )
+    (transformer): Transformer(
+      (blocks): LayerList(
+        (0): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (1): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (2): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (3): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (4): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (5): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (6): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (7): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (8): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (9): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (10): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (11): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+    )
+    (token_embedding): Embedding(49408, 512, sparse=False)
+    (ln_final): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+  )
+  (heads): LayerDict(
+    (retrieval): RetrievalHead(
+      (criterion): CrossEntropyLoss()
+    )
+  )
+)
+[32m[04/03 20:06:22 ufo]: [0mOptim:
+Weight Decay, params: 
+backbone.logit_scale has [1], but backbone.logit_scale has []
+backbone.logit_scale has [], but backbone.logit_scale has [1]
+missing keys: []
+unexpected keys: []
+
+
+--------------------------------------
+C++ Traceback (most recent call last):
+--------------------------------------
+No stack trace in paddle, may be caused by external reasons.
+
+----------------------
+Error Message Summary:
+----------------------
+FatalError: `Termination signal` is detected by the operating system.
+  [TimeInfo: *** Aborted at 1680523621 (unix time) try "date -d @1680523621" if you are using GNU date ***]
+  [SignalInfo: *** SIGTERM (@0x11ac2) received by PID 72487 (TID 0x7ff802524340) from PID 72386 ***]
+
+rank is 3, world size is 8
+I0403 20:07:12.910507 74168 gen_comm_id_helper.cc:205] Server listening on: 127.0.0.1:60004 successful.
+I0403 20:07:15.073120 74168 nccl_context.cc:83] init nccl context nranks: 8 local rank: 3 gpu id: 3 ring id: 0
+W0403 20:07:20.206882 74168 gpu_context.cc:278] Please NOTE: device: 3, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.0
+W0403 20:07:20.210139 74168 gpu_context.cc:306] device: 3, cuDNN Version: 8.0.
+[32m[04/03 20:07:25 ufo]: [0mRank of current process: 0. World size: 1
+[32m[04/03 20:07:34 ufo]: [0mEnvironment info:
+----------------------  -----------------------------------------------------------------------------------------------------------------------------
+sys.platform            linux
+Python                  3.7.10 (default, Feb 26 2021, 18:47:35) [GCC 7.3.0]
+numpy                   1.19.3
+detectron2              imported a wrong installation
+detectron2._C           not built correctly: {e}
+Compiler ($CXX)         c++ (GCC) 8.2.0
+CUDA compiler           Build cuda_11.0_bu.TC445_37.28845127_0
+DETECTRON2_ENV_MODULE   <not set>
+PyTorch                 1.7.1+cu110 @/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/torch
+PyTorch debug build     False
+GPU available           Yes
+GPU 0,1,2,3,4,5,6,7     NVIDIA A100-SXM4-40GB (arch={cap})
+Driver version          470.82.01
+CUDA_HOME               /usr/local/cuda
+Pillow                  8.1.2
+torchvision             0.8.2+cu110 @/root/paddlejob/workspace/env_run/anaconda3/envs/py37_meta_pd-2.3.0_cu11/lib/python3.7/site-packages/torchvision
+torchvision arch flags  3.5, 5.0, 6.0, 7.0, 7.5, 8.0
+fvcore                  0.1.5.post20220119
+iopath                  0.1.9
+cv2                     3.4.15
+----------------------  -----------------------------------------------------------------------------------------------------------------------------
+PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.6.0 (Git Hash 5ef631a030a6f73131c77892041042805a06064f)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.0
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80
+  - CuDNN 8.0.5
+  - Magma 2.5.2
+  - Build settings: BLAS=MKL, BUILD_TYPE=Release, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DUSE_VULKAN_WRAPPER -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, USE_CUDA=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, 
+
+[32m[04/03 20:07:34 ufo]: [0mCommand line arguments: Namespace(config_file='configs/vitbase_retrieval.py', dist_url='tcp://127.0.0.1:49152', eval_only=False, machine_rank=0, num_gpus=1, num_machines=1, opts=[], resume=False)
+[32m[04/03 20:07:34 ufo]: [0mContents of args.config_file=configs/vitbase_retrieval.py:
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15m.[39m[38;5;15mcommon[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mtrain[39m
+[38;5;197mimport[39m[38;5;15m [39m[38;5;15mos[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15momegaconf[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mOmegaConf[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mcollections[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mOrderedDict[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdetectron2[39m[38;5;15m.[39m[38;5;15mconfig[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mLazyCall[39m[38;5;15m [39m[38;5;81mas[39m[38;5;15m [39m[38;5;15mL[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mMultiTaskDataLoader[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mmeta_arch[39m[38;5;15m.[39m[38;5;15mmultitask_v2[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mMultiTaskBatchFuse[39m
+
+[38;5;242m# retrieval[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mtransforms[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mbuild_transforms_lazy[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mdata[39m[38;5;15m.[39m[38;5;15mbuild_retrieval[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m  [39m[38;5;15mbuild_retrieval_dataset[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15m\[39m
+[38;5;15m    [39m[38;5;15mbuild_retrieval_trainloader[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15mbuild_retrieval_test_dataset[39m
+
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15msolver[39m[38;5;15m.[39m[38;5;15mbuild[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mbuild_lr_optimizer_lazy[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15mbuild_lr_scheduler_lazy[39m
+[38;5;15m    [39m
+
+[38;5;15mdataloader[39m[38;5;197m=[39m[38;5;15mOmegaConf[39m[38;5;197m.[39m[38;5;15mcreate[39m[38;5;15m([39m[38;5;15m)[39m
+[38;5;15m_root[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m"[39m[38;5;186mdatasets[39m[38;5;186m"[39m
+
+
+[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mMultiTaskDataLoader[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15mcfg[39m[38;5;197m=[39m[38;5;15mdict[39m[38;5;15m([39m[38;5;15msample_mode[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mbatch[39m[38;5;186m'[39m[38;5;15m,[39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtask_loaders[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mOrderedDict[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m        [39m[38;5;15mretrieval[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_retrieval_trainloader[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m            [39m[38;5;15mdata_set[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_retrieval_dataset[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m                    [39m[38;5;15mdataset_name[39m[38;5;197m=[39m[38;5;186m"[39m[38;5;186mRetrievalDataset[39m[38;5;186m"[39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15mdataroot[39m[38;5;197m=[39m[38;5;15m_root[39m[38;5;15m [39m[38;5;197m+[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186m/train[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15mtransforms[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_transforms_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m                        [39m[38;5;15mis_train[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15msize_train[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m224[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m224[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15mmean[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.485[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.456[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.406[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                        [39m[38;5;15mstd[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.229[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.224[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.225[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m                    [39m[38;5;15m)[39m[38;5;15m,[39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m            [39m[38;5;15mtotal_batch_size[39m[38;5;197m=[39m[38;5;141m16[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mworker_num[39m[38;5;197m=[39m[38;5;141m4[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mdrop_last[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m[38;5;15m [39m
+[38;5;15m            [39m[38;5;15mshuffle[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m            [39m[38;5;15mis_train[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mbackbones[39m[38;5;15m.[39m[38;5;15mvit_retrieval[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mCLIP[39m
+[38;5;197mfrom[39m[38;5;15m [39m[38;5;15mmodeling[39m[38;5;15m.[39m[38;5;15mheads[39m[38;5;15m.[39m[38;5;15mretrieval_head[39m[38;5;15m [39m[38;5;197mimport[39m[38;5;15m [39m[38;5;15mRetrievalHead[39m
+
+
+[38;5;15mbackbone[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mCLIP[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15membed_dim[39m[38;5;197m=[39m[38;5;141m512[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mimage_resolution[39m[38;5;197m=[39m[38;5;141m224[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_layers[39m[38;5;197m=[39m[38;5;141m12[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_width[39m[38;5;197m=[39m[38;5;141m768[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvision_patch_size[39m[38;5;197m=[39m[38;5;141m32[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mcontext_length[39m[38;5;197m=[39m[38;5;141m77[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mvocab_size[39m[38;5;197m=[39m[38;5;141m49408[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_width[39m[38;5;197m=[39m[38;5;141m512[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_heads[39m[38;5;197m=[39m[38;5;141m8[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mtransformer_layers[39m[38;5;197m=[39m[38;5;141m12[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mqkv_bias[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpre_norm[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mproj[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpatch_bias[39m[38;5;197m=[39m[38;5;81mFalse[39m
+[38;5;15m)[39m
+
+[38;5;15mmodel[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mMultiTaskBatchFuse[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15mbackbone[39m[38;5;197m=[39m[38;5;15mbackbone[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mheads[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mOrderedDict[39m[38;5;15m)[39m[38;5;15m([39m
+
+[38;5;15m        [39m[38;5;15mretrieval[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mRetrievalHead[39m[38;5;15m)[39m[38;5;15m([39m[38;5;15m)[39m[38;5;15m,[39m
+
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpixel_mean[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.485[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.456[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.406[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mpixel_std[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m0.229[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.224[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0.225[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m255[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+
+[38;5;15moptimizer[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_lr_optimizer_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m    [39m[38;5;15moptimizer_type[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mAdamW[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mbase_lr[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mweight_decay[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mgrad_clip_enabled[39m[38;5;197m=[39m[38;5;81mTrue[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mgrad_clip_norm[39m[38;5;197m=[39m[38;5;141m0.1[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mapply_decay_param_fun[39m[38;5;197m=[39m[38;5;81mNone[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15mlr_multiplier[39m[38;5;197m=[39m[38;5;15mL[39m[38;5;15m([39m[38;5;15mbuild_lr_scheduler_lazy[39m[38;5;15m)[39m[38;5;15m([39m
+[38;5;15m        [39m[38;5;15mmax_iters[39m[38;5;197m=[39m[38;5;141m900000[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15mwarmup_iters[39m[38;5;197m=[39m[38;5;141m0[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msolver_steps[39m[38;5;197m=[39m[38;5;15m[[39m[38;5;141m720000[39m[38;5;15m][39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msolver_gamma[39m[38;5;197m=[39m[38;5;141m0.1[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15mbase_lr[39m[38;5;197m=[39m[38;5;141m1e-4[39m[38;5;15m,[39m
+[38;5;15m        [39m[38;5;15msched[39m[38;5;197m=[39m[38;5;186m'[39m[38;5;186mPiecewiseDecay[39m[38;5;186m'[39m[38;5;15m,[39m
+[38;5;15m    [39m[38;5;15m)[39m[38;5;15m,[39m
+[38;5;15m)[39m
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mamp[39m[38;5;197m.[39m[38;5;15menabled[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;81mFalse[39m
+
+[38;5;242m# data settings[39m
+[38;5;15msample_num[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m136117[39m[38;5;15m     [39m[38;5;242m#训练集样本量[39m
+[38;5;15mepochs[39m[38;5;197m=[39m[38;5;141m20[39m
+[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mtask_loaders[39m[38;5;197m.[39m[38;5;15mretrieval[39m[38;5;197m.[39m[38;5;15mtotal_batch_size[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m128[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m8[39m[38;5;15m [39m
+
+[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15msample_num[39m[38;5;15m [39m[38;5;197m/[39m[38;5;197m/[39m[38;5;15m [39m[38;5;15mdataloader[39m[38;5;197m.[39m[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mtask_loaders[39m[38;5;197m.[39m[38;5;15mretrieval[39m[38;5;197m.[39m[38;5;15mtotal_batch_size[39m
+
+[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;15mepochs[39m
+
+[38;5;242m# optimizer[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mmax_iters[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mbase_lr[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15mlearning_rate[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m1e-4[39m
+[38;5;15moptimizer[39m[38;5;197m.[39m[38;5;15mlr_multiplier[39m[38;5;197m.[39m[38;5;15msolver_steps[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15m[[39m[38;5;15mint[39m[38;5;15m([39m[38;5;15mmax_iters[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m0.8[39m[38;5;15m)[39m[38;5;15m][39m
+
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mmax_iter[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mmax_iters[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mcheckpointer[39m[38;5;197m.[39m[38;5;15mperiod[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;15mint[39m[38;5;15m([39m[38;5;15miters_per_epoch[39m[38;5;15m [39m[38;5;197m*[39m[38;5;15m [39m[38;5;141m10[39m[38;5;15m)[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mcheckpointer[39m[38;5;197m.[39m[38;5;15mmax_to_keep[39m[38;5;197m=[39m[38;5;141m10[39m[38;5;15m    [39m[38;5;242m# 只保存最新的10个模型[39m
+
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15moutput_dir[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186moutputs/vitbase_retrieval[39m[38;5;186m'[39m
+
+[38;5;242m# resume settings (remember last_checkpoint and --resume)[39m
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15mlog_period[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;141m20[39m
+
+[38;5;15mtrain[39m[38;5;197m.[39m[38;5;15minit_checkpoint[39m[38;5;15m [39m[38;5;197m=[39m[38;5;15m [39m[38;5;186m'[39m[38;5;186mpretrained/vitbase_clip.pdparams[39m[38;5;186m'[39m[38;5;15m [39m[38;5;242m# 导入CLIP预训练模型[39m
+
+[32m[04/03 20:07:34 ufo]: [0mFull config saved to outputs/vitbase_retrieval/config.yaml
+data_set: <data.datasets.retrieval_dataset.RetrievalDataset object at 0x7ff3596b9f50>
+RetrievalDataset has 126117 samples
+[32m[04/03 20:07:35 ufo]: [0m{'train': {'output_dir': 'outputs/vitbase_retrieval', 'sacred': {'enabled': True}, 'init_checkpoint': 'pretrained/vitbase_clip.pdparams', 'amp': {'enabled': False}, 'cudnn_benchmark': True, 'ddp': {'broadcast_buffers': False, 'find_unused_parameters': True, 'fp16_compression': False}, 'max_iter': 2640, 'checkpointer': {'period': 1320, 'max_to_keep': 10}, 'eval_period': 5000, 'log_period': 20, 'device': 'gpu'}, 'dataloader': {'train': {'cfg': {'sample_mode': 'batch'}, 'task_loaders': {'retrieval': {'data_set': {'dataset_name': 'RetrievalDataset', 'dataroot': 'datasets/train', 'transforms': {'is_train': True, 'size_train': [224, 224], 'mean': [123.675, 116.28, 103.53], 'std': [58.395, 57.120000000000005, 57.375], '_target_': <function build_transforms_lazy at 0x7ff359987f80>}, '_target_': <function build_retrieval_dataset at 0x7ff35941aa70>}, 'total_batch_size': 1024, 'worker_num': 4, 'drop_last': True, 'shuffle': True, 'is_train': True, '_target_': <function build_retrieval_trainloader at 0x7ff3594277a0>}, '_target_': <class 'collections.OrderedDict'>}, '_target_': <class 'data.build.MultiTaskDataLoader'>}}, 'backbone': {'embed_dim': 512, 'image_resolution': 224, 'vision_layers': 12, 'vision_width': 768, 'vision_patch_size': 32, 'context_length': 77, 'vocab_size': 49408, 'transformer_width': 512, 'transformer_heads': 8, 'transformer_layers': 12, 'qkv_bias': True, 'pre_norm': True, 'proj': True, 'patch_bias': False, '_target_': <class 'modeling.backbones.vit_retrieval.CLIP'>}, 'model': {'backbone': {'embed_dim': 512, 'image_resolution': 224, 'vision_layers': 12, 'vision_width': 768, 'vision_patch_size': 32, 'context_length': 77, 'vocab_size': 49408, 'transformer_width': 512, 'transformer_heads': 8, 'transformer_layers': 12, 'qkv_bias': True, 'pre_norm': True, 'proj': True, 'patch_bias': False, '_target_': <class 'modeling.backbones.vit_retrieval.CLIP'>}, 'heads': {'retrieval': {'_target_': <class 'modeling.heads.retrieval_head.RetrievalHead'>}, '_target_': <class 'collections.OrderedDict'>}, 'pixel_mean': [123.675, 116.28, 103.53], 'pixel_std': [58.395, 57.120000000000005, 57.375], '_target_': <class 'modeling.meta_arch.multitask_v2.MultiTaskBatchFuse'>}, 'optimizer': {'optimizer_type': 'AdamW', 'base_lr': 0.0001, 'weight_decay': 0.0001, 'grad_clip_enabled': True, 'grad_clip_norm': 0.1, 'apply_decay_param_fun': None, 'lr_multiplier': {'max_iters': 2640, 'warmup_iters': 0, 'solver_steps': [2112], 'solver_gamma': 0.1, 'base_lr': 0.0001, 'sched': 'PiecewiseDecay', '_target_': <function build_lr_scheduler_lazy at 0x7ff42417d680>, 'learning_rate': 0.0001}, '_target_': <function build_lr_optimizer_lazy at 0x7ff42417d200>}}
+[32m[04/03 20:07:38 ufo]: [0mModel:
+MultiTaskBatchFuse(
+  (backbone): CLIP(
+    (visual): VisionTransformer(
+      (patch_embed): PatchEmbed(
+        (proj): Conv2D(3, 768, kernel_size=[32, 32], stride=[32, 32], data_format=NCHW)
+      )
+      (pos_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+      (norm_pre): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+      (blocks): LayerList(
+        (0): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (1): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (2): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (3): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (4): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (5): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (6): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (7): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (8): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (9): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (10): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (11): Block(
+          (norm1): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=768, out_features=2304, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=768, out_features=768, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=768, out_features=3072, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=3072, out_features=768, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (norm_post): LayerNorm(normalized_shape=[768], epsilon=1e-05)
+    )
+    (transformer): Transformer(
+      (blocks): LayerList(
+        (0): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (1): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (2): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (3): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (4): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (5): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (6): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (7): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (8): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (9): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (10): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+        (11): Block(
+          (norm1): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (attn): Attention(
+            (qkv): Linear(in_features=512, out_features=1536, dtype=float32)
+            (attn_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+            (proj): Linear(in_features=512, out_features=512, dtype=float32)
+            (proj_drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, dtype=float32)
+            (act): QuickGELU()
+            (fc2): Linear(in_features=2048, out_features=512, dtype=float32)
+            (drop): Dropout(p=0.0, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+    )
+    (token_embedding): Embedding(49408, 512, sparse=False)
+    (ln_final): LayerNorm(normalized_shape=[512], epsilon=1e-05)
+  )
+  (heads): LayerDict(
+    (retrieval): RetrievalHead(
+      (criterion): CrossEntropyLoss()
+    )
+  )
+)
+[32m[04/03 20:07:39 ufo]: [0mOptim:
+Weight Decay, params: 
+backbone.logit_scale has [1], but backbone.logit_scale has []
+backbone.logit_scale has [], but backbone.logit_scale has [1]
+missing keys: []
+unexpected keys: []
