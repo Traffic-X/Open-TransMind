@@ -1,4 +1,4 @@
-English | [简体中文](README_ch.md)
+English | [简体中文](README_ch.md) | [Open TransMind](https://arxiv.org/pdf/2304.06051.pdf)
 
 # Introduction  
 
@@ -11,10 +11,9 @@ In order to further promote the development of visual large model technology, Ba
 In this  model technology competition, we aim at the direction of intelligent transportation and open source Open-TransMind v1.0 as a baseline for competitors, providing a great opportunity for global challengers to exchange cutting-edge foundation model technology.
 
 
-About Open TransMind v1.0
+About [Open TransMind v1.0](https://arxiv.org/pdf/2304.06051.pdf)
 
-In 2022, Baidu proposed the Unified Feature Optimization (UFO) technology, and released the world's largest visual model VIMER-UFO 2.0 (Wenxin · CV foundation Model), covering 20+CV basic tasks, achieving 28 public data sets SOTA. Subsequently, Baidu Apollo combined UFO technology and intelligent transportation AI capabilities into one of the multimodal, multi-scene, and multitasking Wenxin Transportation foundation Models ERNIE-Traffic-TransMind, It can simultaneously support three modes: point cloud, vision, and text, including over a hundred traffic features in multiple scenarios such as autonomous driving, vehicle road collaboration, intelligent traffic management, intelligent Internet connection, intelligent parking, and intelligent highway. It has pioneered the introduction of the open world understanding ability of text image dialogue and text image mode conversion ability, and has been gradually applied to various solutions and product lines of Baidu Intelligent Transportation.
-
+In 2022, Baidu proposed the Unified Feature Optimization ([UFO](https://arxiv.org/pdf/2207.10341.pdf)) technology, and released the world's largest visual model VIMER-UFO 2.0 (Wenxin · CV foundation Model), covering 20+CV basic tasks, achieving 28 public data sets SOTA. Subsequently, Baidu Apollo combined UFO technology and intelligent transportation AI capabilities into one of the multimodal, multi-scene, and multitasking Wenxin Transportation foundation Models ERNIE-Traffic-TransMind, It can simultaneously support three modes: point cloud, vision, and text, including over a hundred traffic features in multiple scenarios such as autonomous driving, vehicle road collaboration, intelligent traffic management, intelligent Internet connection, intelligent parking, and intelligent highway. It has pioneered the introduction of the open world understanding ability of text image dialogue and text image mode conversion ability, and has been gradually applied to various solutions and product lines of Baidu Intelligent Transportation.
 
 1、 Competition background
 
