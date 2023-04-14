@@ -168,7 +168,6 @@ class DETRLoss(nn.Layer):
             self.loss_coeff['class'] = paddle.full([num_classes + 1],
                                                    loss_coeff['class'])
             self.loss_coeff['class'][-1] = loss_coeff['no_object']
-        
         self.giou_loss = GIoULoss()
 
     def _get_loss_class(self, logits, gt_class, match_indices, bg_index,

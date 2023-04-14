@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # Copyright (c) Baidu, Inc. and its affiliates.
 """
 This training script is mainly constructed on train_net.py.
